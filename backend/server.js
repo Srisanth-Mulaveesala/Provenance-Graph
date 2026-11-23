@@ -9,8 +9,15 @@ const express = require('express');
 const { analyzeTransfers } = require('./riskAnalysis');
 
 const projectRoot = path.resolve(__dirname, '..');
-const defaultStorePath = path.join(__dirname, 'data', 'store.json');
-const defaultEnginePath = path.join(projectRoot, 'provenance_engine.exe');
+const defaultStorePath = path.resolve(
+  process.env.PROVENANCE_STORE_PATH || path.join(__dirname, 'data', 'store.json')
+);
+const defaultEnginePath = path.resolve(
+  process.env.CPP_ENGINE_PATH || path.join(
+    projectRoot,
+    process.platform === 'win32' ? 'provenance_engine.exe' : 'provenance_engine'
+  )
+);
 const maxBodyBytes = '1mb';
 const performanceAlgorithmVersion = 'directed-cycle-path-v2';
 const transferPurposes = [
@@ -255,11 +262,48 @@ function validatePerformance(body) {
   };
 }
 
+function createCorsMiddleware(allowedOrigins) {
+  return (req, res, next) => {
+    const origin = req.get('Origin');
+    if (!origin) {
+      if (req.method === 'OPTIONS') return res.sendStatus(204);
+      return next();
+    }
+    if (!allowedOrigins.has(origin)) {
+      if (req.method === 'OPTIONS')
+        return res.status(403).json({ error: 'Origin not allowed' });
+      return next();
+    }
+
+    res.set('Access-Control-Allow-Origin', origin);
+    res.vary('Origin');
+    if (req.method === 'OPTIONS') {
+      res.set('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+      res.set('Access-Control-Allow-Headers', 'Content-Type');
+      return res.sendStatus(204);
+    }
+    return next();
+  };
+}
+
 function createApp(options = {}) {
-  const storePath = options.storePath || defaultStorePath;
-  const enginePath = options.enginePath || defaultEnginePath;
+  const storePath = path.resolve(
+    options.storePath || process.env.PROVENANCE_STORE_PATH || defaultStorePath
+  );
+  const enginePath = path.resolve(
+    options.enginePath || process.env.CPP_ENGINE_PATH || defaultEnginePath
+  );
   const store = readStore(storePath);
   const app = express();
+  const configuredOrigins = options.corsOrigins === undefined
+    ? (process.env.CORS_ORIGINS || '').split(',')
+    : Array.isArray(options.corsOrigins) ? options.corsOrigins : String(options.corsOrigins).split(',');
+  const allowedOrigins = new Set([
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+    ...configuredOrigins.map((origin) => origin.trim()).filter(Boolean)
+  ]);
+  app.use(createCorsMiddleware(allowedOrigins));
   app.use(express.json({ limit: maxBodyBytes, strict: true }));
 
   app.get('/api/health', (req, res) => res.json({ success: true }));

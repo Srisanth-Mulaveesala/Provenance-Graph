@@ -1,0 +1,9 @@
+**/node_modules/
+frontend/dist/
+*.exe
+/provenance_engine
+backend/data/store.json
+.env
+.env.*
+**/.env
+**/.env.*

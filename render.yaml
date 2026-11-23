@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: provenance-graph-api
+    runtime: docker
+    plan: 0.5c-512mb
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /api/health
+    autoDeployTrigger: 'off'
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CPP_ENGINE_PATH
+        value: /app/provenance_engine
+      - key: PROVENANCE_STORE_PATH
+        value: /var/data/store.json
+      - key: CORS_ORIGINS
+        value: https://provenance-graph.onrender.com
+    disk:
+      name: provenance-graph-data
+      mountPath: /var/data
+      sizeGB: 1

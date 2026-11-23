@@ -36,7 +36,8 @@ test('actor/transfer CRUD, cycle tracing, persistence, and configured performanc
 
   const testDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'provenance-api-test-'));
   const storePath = path.join(testDirectory, 'store.json');
-  const server = createApp({ storePath }).listen(0);
+  const allowedOrigin = 'https://provenance-graph.onrender.com';
+  const server = createApp({ storePath, corsOrigins: [allowedOrigin] }).listen(0);
   await new Promise((resolve) => server.once('listening', resolve));
   const baseUrl = `http://127.0.0.1:${server.address().port}/api`;
   const request = async (endpoint, method, body) => {
@@ -50,6 +51,25 @@ test('actor/transfer CRUD, cycle tracing, persistence, and configured performanc
   };
 
   try {
+    const corsResponse = await fetch(`${baseUrl}/health`, {
+      headers: { Origin: allowedOrigin }
+    });
+    assert.equal(corsResponse.headers.get('access-control-allow-origin'), allowedOrigin);
+    const preflight = await fetch(`${baseUrl}/actors`, {
+      method: 'OPTIONS',
+      headers: {
+        Origin: allowedOrigin,
+        'Access-Control-Request-Method': 'POST',
+        'Access-Control-Request-Headers': 'content-type'
+      }
+    });
+    assert.equal(preflight.status, 204);
+    assert.match(preflight.headers.get('access-control-allow-methods'), /POST/);
+    const blockedOrigin = await fetch(`${baseUrl}/health`, {
+      headers: { Origin: 'https://untrusted.example' }
+    });
+    assert.equal(blockedOrigin.headers.get('access-control-allow-origin'), null);
+
     for (const actor of [
       { id: 1, name: 'Origin', type: 'Supplier' },
       { id: 2, name: 'Processor', type: 'Manufacturer' },
@@ -221,6 +241,27 @@ test('actor/transfer CRUD, cycle tracing, persistence, and configured performanc
     assert.equal((await request('/synthetic', 'DELETE')).data.cleared, true);
   } finally {
     await new Promise((resolve, reject) => server.close((error) => error ? reject(error) : resolve()));
+    fs.rmSync(testDirectory, { recursive: true, force: true });
+  }
+});
+
+test('PROVENANCE_STORE_PATH selects persistent storage without changing local defaults', () => {
+  const testDirectory = fs.mkdtempSync(path.join(os.tmpdir(), 'provenance-store-env-test-'));
+  const storePath = path.join(testDirectory, 'render-data', 'store.json');
+  const previousStorePath = process.env.PROVENANCE_STORE_PATH;
+  try {
+    process.env.PROVENANCE_STORE_PATH = storePath;
+    const app = createApp();
+    assert.equal(app.locals.storePath, path.resolve(storePath));
+    assert.deepEqual(JSON.parse(fs.readFileSync(storePath, 'utf8')), {
+      actors: [],
+      transfers: [],
+      synthetic: null,
+      performance: []
+    });
+  } finally {
+    if (previousStorePath === undefined) delete process.env.PROVENANCE_STORE_PATH;
+    else process.env.PROVENANCE_STORE_PATH = previousStorePath;
     fs.rmSync(testDirectory, { recursive: true, force: true });
   }
 });

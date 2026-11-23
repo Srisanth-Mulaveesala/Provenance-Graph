@@ -12,7 +12,7 @@ import {
   Tooltip, Legend, ResponsiveContainer
 } from 'recharts';
 
-const API = '/api';
+const API = (import.meta.env.VITE_API_BASE_URL || '/api').replace(/\/+$/, '');
 const PERFORMANCE_ALGORITHM_VERSION = 'directed-cycle-path-v2';
 const navItems = [
   ['dashboard', LayoutDashboard, 'Dashboard'],
@@ -466,7 +466,7 @@ function PerformancePage({ performance,setPerformance,setNotice }) {
 }
 
 function ReportsPage({ graph, cycles, performance, setNotice }) {
-  const downloadCsv=()=>{window.location.href='/api/reports/export';};
+  const downloadCsv=()=>{window.location.href=`${API}/reports/export`;};
   const printPdf=()=>window.print();
   return <>
     <section className="panel"><div className="panel-heading"><div><p className="eyebrow">Export Center</p><h2>Analysis Reports</h2></div></div>
