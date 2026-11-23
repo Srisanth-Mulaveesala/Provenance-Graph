@@ -1,0 +1,16 @@
+{
+  "name": "provenance-graph-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express API for the provenance graph C++ engine",
+  "main": "server.js",
+  "scripts": {
+    "build:engine": "g++ -std=c++11 -Wall -Wextra -pedantic ../main.cpp ../Actor.cpp ../Transfer.cpp ../ProvenanceGraph.cpp ../BFSAnalyzer.cpp ../CycleDetector.cpp ../SyntheticDataGenerator.cpp ../PerformanceAnalyzer.cpp ../MainSystem.cpp ../JsonValue.cpp ../JsonMode.cpp -o ../provenance_engine.exe",
+    "prestart": "npm run build:engine",
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,1615 @@
+{
+  "actors": [
+    {
+      "id": 0,
+      "name": "Actor_0",
+      "type": "Supplier"
+    },
+    {
+      "id": 1,
+      "name": "Actor_1",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 2,
+      "name": "Actor_2",
+      "type": "Distributor"
+    },
+    {
+      "id": 3,
+      "name": "Actor_3",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 4,
+      "name": "Actor_4",
+      "type": "Customer"
+    },
+    {
+      "id": 5,
+      "name": "Actor_5",
+      "type": "Supplier"
+    },
+    {
+      "id": 6,
+      "name": "Actor_6",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 7,
+      "name": "Actor_7",
+      "type": "Distributor"
+    },
+    {
+      "id": 8,
+      "name": "Actor_8",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 9,
+      "name": "Actor_9",
+      "type": "Customer"
+    },
+    {
+      "id": 10,
+      "name": "Actor_10",
+      "type": "Supplier"
+    },
+    {
+      "id": 11,
+      "name": "Actor_11",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 12,
+      "name": "Actor_12",
+      "type": "Distributor"
+    },
+    {
+      "id": 13,
+      "name": "Actor_13",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 14,
+      "name": "Actor_14",
+      "type": "Customer"
+    },
+    {
+      "id": 15,
+      "name": "Actor_15",
+      "type": "Supplier"
+    },
+    {
+      "id": 16,
+      "name": "Actor_16",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 17,
+      "name": "Actor_17",
+      "type": "Distributor"
+    },
+    {
+      "id": 18,
+      "name": "Actor_18",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 19,
+      "name": "Actor_19",
+      "type": "Customer"
+    },
+    {
+      "id": 20,
+      "name": "Actor_20",
+      "type": "Supplier"
+    },
+    {
+      "id": 21,
+      "name": "Actor_21",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 22,
+      "name": "Actor_22",
+      "type": "Distributor"
+    },
+    {
+      "id": 23,
+      "name": "Actor_23",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 24,
+      "name": "Actor_24",
+      "type": "Customer"
+    },
+    {
+      "id": 25,
+      "name": "Actor_25",
+      "type": "Supplier"
+    },
+    {
+      "id": 26,
+      "name": "Actor_26",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 27,
+      "name": "Actor_27",
+      "type": "Distributor"
+    },
+    {
+      "id": 28,
+      "name": "Actor_28",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 29,
+      "name": "Actor_29",
+      "type": "Customer"
+    },
+    {
+      "id": 30,
+      "name": "Actor_30",
+      "type": "Supplier"
+    },
+    {
+      "id": 31,
+      "name": "Actor_31",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 32,
+      "name": "Actor_32",
+      "type": "Distributor"
+    },
+    {
+      "id": 33,
+      "name": "Actor_33",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 34,
+      "name": "Actor_34",
+      "type": "Customer"
+    },
+    {
+      "id": 35,
+      "name": "Actor_35",
+      "type": "Supplier"
+    },
+    {
+      "id": 36,
+      "name": "Actor_36",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 37,
+      "name": "Actor_37",
+      "type": "Distributor"
+    },
+    {
+      "id": 38,
+      "name": "Actor_38",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 39,
+      "name": "Actor_39",
+      "type": "Customer"
+    },
+    {
+      "id": 40,
+      "name": "Actor_40",
+      "type": "Supplier"
+    },
+    {
+      "id": 41,
+      "name": "Actor_41",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 42,
+      "name": "Actor_42",
+      "type": "Distributor"
+    },
+    {
+      "id": 43,
+      "name": "Actor_43",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 44,
+      "name": "Actor_44",
+      "type": "Customer"
+    },
+    {
+      "id": 45,
+      "name": "Actor_45",
+      "type": "Supplier"
+    },
+    {
+      "id": 46,
+      "name": "Actor_46",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 47,
+      "name": "Actor_47",
+      "type": "Distributor"
+    },
+    {
+      "id": 48,
+      "name": "Actor_48",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 49,
+      "name": "Actor_49",
+      "type": "Customer"
+    },
+    {
+      "id": 50,
+      "name": "Actor_50",
+      "type": "Supplier"
+    },
+    {
+      "id": 51,
+      "name": "Actor_51",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 52,
+      "name": "Actor_52",
+      "type": "Distributor"
+    },
+    {
+      "id": 53,
+      "name": "Actor_53",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 54,
+      "name": "Actor_54",
+      "type": "Customer"
+    },
+    {
+      "id": 55,
+      "name": "Actor_55",
+      "type": "Supplier"
+    },
+    {
+      "id": 56,
+      "name": "Actor_56",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 57,
+      "name": "Actor_57",
+      "type": "Distributor"
+    },
+    {
+      "id": 58,
+      "name": "Actor_58",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 59,
+      "name": "Actor_59",
+      "type": "Customer"
+    },
+    {
+      "id": 60,
+      "name": "Actor_60",
+      "type": "Supplier"
+    },
+    {
+      "id": 61,
+      "name": "Actor_61",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 62,
+      "name": "Actor_62",
+      "type": "Distributor"
+    },
+    {
+      "id": 63,
+      "name": "Actor_63",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 64,
+      "name": "Actor_64",
+      "type": "Customer"
+    },
+    {
+      "id": 65,
+      "name": "Actor_65",
+      "type": "Supplier"
+    },
+    {
+      "id": 66,
+      "name": "Actor_66",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 67,
+      "name": "Actor_67",
+      "type": "Distributor"
+    },
+    {
+      "id": 68,
+      "name": "Actor_68",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 69,
+      "name": "Actor_69",
+      "type": "Customer"
+    },
+    {
+      "id": 70,
+      "name": "Actor_70",
+      "type": "Supplier"
+    },
+    {
+      "id": 71,
+      "name": "Actor_71",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 72,
+      "name": "Actor_72",
+      "type": "Distributor"
+    },
+    {
+      "id": 73,
+      "name": "Actor_73",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 74,
+      "name": "Actor_74",
+      "type": "Customer"
+    },
+    {
+      "id": 75,
+      "name": "Actor_75",
+      "type": "Supplier"
+    },
+    {
+      "id": 76,
+      "name": "Actor_76",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 77,
+      "name": "Actor_77",
+      "type": "Distributor"
+    },
+    {
+      "id": 78,
+      "name": "Actor_78",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 79,
+      "name": "Actor_79",
+      "type": "Customer"
+    },
+    {
+      "id": 80,
+      "name": "Actor_80",
+      "type": "Supplier"
+    },
+    {
+      "id": 81,
+      "name": "Actor_81",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 82,
+      "name": "Actor_82",
+      "type": "Distributor"
+    },
+    {
+      "id": 83,
+      "name": "Actor_83",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 84,
+      "name": "Actor_84",
+      "type": "Customer"
+    },
+    {
+      "id": 85,
+      "name": "Actor_85",
+      "type": "Supplier"
+    },
+    {
+      "id": 86,
+      "name": "Actor_86",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 87,
+      "name": "Actor_87",
+      "type": "Distributor"
+    },
+    {
+      "id": 88,
+      "name": "Actor_88",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 89,
+      "name": "Actor_89",
+      "type": "Customer"
+    },
+    {
+      "id": 90,
+      "name": "Actor_90",
+      "type": "Supplier"
+    },
+    {
+      "id": 91,
+      "name": "Actor_91",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 92,
+      "name": "Actor_92",
+      "type": "Distributor"
+    },
+    {
+      "id": 93,
+      "name": "Actor_93",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 94,
+      "name": "Actor_94",
+      "type": "Customer"
+    },
+    {
+      "id": 95,
+      "name": "Actor_95",
+      "type": "Supplier"
+    },
+    {
+      "id": 96,
+      "name": "Actor_96",
+      "type": "Manufacturer"
+    },
+    {
+      "id": 97,
+      "name": "Actor_97",
+      "type": "Distributor"
+    },
+    {
+      "id": 98,
+      "name": "Actor_98",
+      "type": "Pharmacy"
+    },
+    {
+      "id": 99,
+      "name": "Actor_99",
+      "type": "Customer"
+    }
+  ],
+  "transfers": [
+    {
+      "id": 1,
+      "destination": 1,
+      "product": 1001,
+      "source": 0
+    },
+    {
+      "id": 2,
+      "destination": 2,
+      "product": 1001,
+      "source": 1
+    },
+    {
+      "id": 3,
+      "destination": 3,
+      "product": 1001,
+      "source": 2
+    },
+    {
+      "id": 4,
+      "destination": 4,
+      "product": 1001,
+      "source": 3
+    },
+    {
+      "id": 5,
+      "destination": 5,
+      "product": 1001,
+      "source": 4
+    },
+    {
+      "id": 6,
+      "destination": 6,
+      "product": 1001,
+      "source": 5
+    },
+    {
+      "id": 7,
+      "destination": 7,
+      "product": 1001,
+      "source": 6
+    },
+    {
+      "id": 8,
+      "destination": 8,
+      "product": 1001,
+      "source": 7
+    },
+    {
+      "id": 9,
+      "destination": 9,
+      "product": 1001,
+      "source": 8
+    },
+    {
+      "id": 10,
+      "destination": 10,
+      "product": 1001,
+      "source": 9
+    },
+    {
+      "id": 11,
+      "destination": 11,
+      "product": 1001,
+      "source": 10
+    },
+    {
+      "id": 12,
+      "destination": 12,
+      "product": 1001,
+      "source": 11
+    },
+    {
+      "id": 13,
+      "destination": 13,
+      "product": 1001,
+      "source": 12
+    },
+    {
+      "id": 14,
+      "destination": 14,
+      "product": 1001,
+      "source": 13
+    },
+    {
+      "id": 15,
+      "destination": 15,
+      "product": 1001,
+      "source": 14
+    },
+    {
+      "id": 16,
+      "destination": 16,
+      "product": 1001,
+      "source": 15
+    },
+    {
+      "id": 17,
+      "destination": 17,
+      "product": 1001,
+      "source": 16
+    },
+    {
+      "id": 18,
+      "destination": 18,
+      "product": 1001,
+      "source": 17
+    },
+    {
+      "id": 19,
+      "destination": 19,
+      "product": 1001,
+      "source": 18
+    },
+    {
+      "id": 20,
+      "destination": 20,
+      "product": 1001,
+      "source": 19
+    },
+    {
+      "id": 21,
+      "destination": 21,
+      "product": 1001,
+      "source": 20
+    },
+    {
+      "id": 22,
+      "destination": 22,
+      "product": 1001,
+      "source": 21
+    },
+    {
+      "id": 23,
+      "destination": 23,
+      "product": 1001,
+      "source": 22
+    },
+    {
+      "id": 24,
+      "destination": 24,
+      "product": 1001,
+      "source": 23
+    },
+    {
+      "id": 25,
+      "destination": 25,
+      "product": 1001,
+      "source": 24
+    },
+    {
+      "id": 26,
+      "destination": 26,
+      "product": 1001,
+      "source": 25
+    },
+    {
+      "id": 27,
+      "destination": 27,
+      "product": 1001,
+      "source": 26
+    },
+    {
+      "id": 28,
+      "destination": 28,
+      "product": 1001,
+      "source": 27
+    },
+    {
+      "id": 29,
+      "destination": 29,
+      "product": 1001,
+      "source": 28
+    },
+    {
+      "id": 30,
+      "destination": 30,
+      "product": 1001,
+      "source": 29
+    },
+    {
+      "id": 31,
+      "destination": 31,
+      "product": 1001,
+      "source": 30
+    },
+    {
+      "id": 32,
+      "destination": 32,
+      "product": 1001,
+      "source": 31
+    },
+    {
+      "id": 33,
+      "destination": 33,
+      "product": 1001,
+      "source": 32
+    },
+    {
+      "id": 34,
+      "destination": 34,
+      "product": 1001,
+      "source": 33
+    },
+    {
+      "id": 35,
+      "destination": 35,
+      "product": 1001,
+      "source": 34
+    },
+    {
+      "id": 36,
+      "destination": 36,
+      "product": 1001,
+      "source": 35
+    },
+    {
+      "id": 37,
+      "destination": 37,
+      "product": 1001,
+      "source": 36
+    },
+    {
+      "id": 38,
+      "destination": 38,
+      "product": 1001,
+      "source": 37
+    },
+    {
+      "id": 39,
+      "destination": 39,
+      "product": 1001,
+      "source": 38
+    },
+    {
+      "id": 40,
+      "destination": 40,
+      "product": 1001,
+      "source": 39
+    },
+    {
+      "id": 41,
+      "destination": 41,
+      "product": 1001,
+      "source": 40
+    },
+    {
+      "id": 42,
+      "destination": 42,
+      "product": 1001,
+      "source": 41
+    },
+    {
+      "id": 43,
+      "destination": 43,
+      "product": 1001,
+      "source": 42
+    },
+    {
+      "id": 44,
+      "destination": 44,
+      "product": 1001,
+      "source": 43
+    },
+    {
+      "id": 45,
+      "destination": 45,
+      "product": 1001,
+      "source": 44
+    },
+    {
+      "id": 46,
+      "destination": 46,
+      "product": 1001,
+      "source": 45
+    },
+    {
+      "id": 47,
+      "destination": 47,
+      "product": 1001,
+      "source": 46
+    },
+    {
+      "id": 48,
+      "destination": 48,
+      "product": 1001,
+      "source": 47
+    },
+    {
+      "id": 49,
+      "destination": 49,
+      "product": 1001,
+      "source": 48
+    },
+    {
+      "id": 50,
+      "destination": 50,
+      "product": 1001,
+      "source": 49
+    },
+    {
+      "id": 51,
+      "destination": 51,
+      "product": 1001,
+      "source": 50
+    },
+    {
+      "id": 52,
+      "destination": 52,
+      "product": 1001,
+      "source": 51
+    },
+    {
+      "id": 53,
+      "destination": 53,
+      "product": 1001,
+      "source": 52
+    },
+    {
+      "id": 54,
+      "destination": 54,
+      "product": 1001,
+      "source": 53
+    },
+    {
+      "id": 55,
+      "destination": 55,
+      "product": 1001,
+      "source": 54
+    },
+    {
+      "id": 56,
+      "destination": 56,
+      "product": 1001,
+      "source": 55
+    },
+    {
+      "id": 57,
+      "destination": 57,
+      "product": 1001,
+      "source": 56
+    },
+    {
+      "id": 58,
+      "destination": 58,
+      "product": 1001,
+      "source": 57
+    },
+    {
+      "id": 59,
+      "destination": 59,
+      "product": 1001,
+      "source": 58
+    },
+    {
+      "id": 60,
+      "destination": 60,
+      "product": 1001,
+      "source": 59
+    },
+    {
+      "id": 61,
+      "destination": 61,
+      "product": 1001,
+      "source": 60
+    },
+    {
+      "id": 62,
+      "destination": 62,
+      "product": 1001,
+      "source": 61
+    },
+    {
+      "id": 63,
+      "destination": 63,
+      "product": 1001,
+      "source": 62
+    },
+    {
+      "id": 64,
+      "destination": 64,
+      "product": 1001,
+      "source": 63
+    },
+    {
+      "id": 65,
+      "destination": 65,
+      "product": 1001,
+      "source": 64
+    },
+    {
+      "id": 66,
+      "destination": 66,
+      "product": 1001,
+      "source": 65
+    },
+    {
+      "id": 67,
+      "destination": 67,
+      "product": 1001,
+      "source": 66
+    },
+    {
+      "id": 68,
+      "destination": 68,
+      "product": 1001,
+      "source": 67
+    },
+    {
+      "id": 69,
+      "destination": 69,
+      "product": 1001,
+      "source": 68
+    },
+    {
+      "id": 70,
+      "destination": 70,
+      "product": 1001,
+      "source": 69
+    },
+    {
+      "id": 71,
+      "destination": 71,
+      "product": 1001,
+      "source": 70
+    },
+    {
+      "id": 72,
+      "destination": 72,
+      "product": 1001,
+      "source": 71
+    },
+    {
+      "id": 73,
+      "destination": 73,
+      "product": 1001,
+      "source": 72
+    },
+    {
+      "id": 74,
+      "destination": 74,
+      "product": 1001,
+      "source": 73
+    },
+    {
+      "id": 75,
+      "destination": 75,
+      "product": 1001,
+      "source": 74
+    },
+    {
+      "id": 76,
+      "destination": 76,
+      "product": 1001,
+      "source": 75
+    },
+    {
+      "id": 77,
+      "destination": 77,
+      "product": 1001,
+      "source": 76
+    },
+    {
+      "id": 78,
+      "destination": 78,
+      "product": 1001,
+      "source": 77
+    },
+    {
+      "id": 79,
+      "destination": 79,
+      "product": 1001,
+      "source": 78
+    },
+    {
+      "id": 80,
+      "destination": 80,
+      "product": 1001,
+      "source": 79
+    },
+    {
+      "id": 81,
+      "destination": 81,
+      "product": 1001,
+      "source": 80
+    },
+    {
+      "id": 82,
+      "destination": 82,
+      "product": 1001,
+      "source": 81
+    },
+    {
+      "id": 83,
+      "destination": 83,
+      "product": 1001,
+      "source": 82
+    },
+    {
+      "id": 84,
+      "destination": 84,
+      "product": 1001,
+      "source": 83
+    },
+    {
+      "id": 85,
+      "destination": 85,
+      "product": 1001,
+      "source": 84
+    },
+    {
+      "id": 86,
+      "destination": 86,
+      "product": 1001,
+      "source": 85
+    },
+    {
+      "id": 87,
+      "destination": 87,
+      "product": 1001,
+      "source": 86
+    },
+    {
+      "id": 88,
+      "destination": 88,
+      "product": 1001,
+      "source": 87
+    },
+    {
+      "id": 89,
+      "destination": 89,
+      "product": 1001,
+      "source": 88
+    },
+    {
+      "id": 90,
+      "destination": 90,
+      "product": 1001,
+      "source": 89
+    },
+    {
+      "id": 91,
+      "destination": 91,
+      "product": 1001,
+      "source": 90
+    },
+    {
+      "id": 92,
+      "destination": 92,
+      "product": 1001,
+      "source": 91
+    },
+    {
+      "id": 93,
+      "destination": 93,
+      "product": 1001,
+      "source": 92
+    },
+    {
+      "id": 94,
+      "destination": 94,
+      "product": 1001,
+      "source": 93
+    },
+    {
+      "id": 95,
+      "destination": 95,
+      "product": 1001,
+      "source": 94
+    },
+    {
+      "id": 96,
+      "destination": 96,
+      "product": 1001,
+      "source": 95
+    },
+    {
+      "id": 97,
+      "destination": 97,
+      "product": 1001,
+      "source": 96
+    },
+    {
+      "id": 98,
+      "destination": 98,
+      "product": 1001,
+      "source": 97
+    },
+    {
+      "id": 99,
+      "destination": 99,
+      "product": 1001,
+      "source": 98
+    },
+    {
+      "id": 100,
+      "destination": 0,
+      "product": 2000,
+      "source": 2
+    },
+    {
+      "id": 101,
+      "destination": 3,
+      "product": 2001,
+      "source": 5
+    },
+    {
+      "id": 102,
+      "destination": 94,
+      "product": 100000,
+      "source": 87
+    },
+    {
+      "id": 103,
+      "destination": 96,
+      "product": 100001,
+      "source": 95
+    },
+    {
+      "id": 104,
+      "destination": 99,
+      "product": 100002,
+      "source": 93
+    },
+    {
+      "id": 105,
+      "destination": 98,
+      "product": 100003,
+      "source": 48
+    },
+    {
+      "id": 106,
+      "destination": 95,
+      "product": 100004,
+      "source": 75
+    },
+    {
+      "id": 107,
+      "destination": 97,
+      "product": 100005,
+      "source": 91
+    },
+    {
+      "id": 108,
+      "destination": 44,
+      "product": 100006,
+      "source": 39
+    },
+    {
+      "id": 109,
+      "destination": 88,
+      "product": 100007,
+      "source": 84
+    },
+    {
+      "id": 110,
+      "destination": 99,
+      "product": 100008,
+      "source": 45
+    },
+    {
+      "id": 111,
+      "destination": 99,
+      "product": 100009,
+      "source": 69
+    },
+    {
+      "id": 112,
+      "destination": 60,
+      "product": 100010,
+      "source": 42
+    },
+    {
+      "id": 113,
+      "destination": 81,
+      "product": 100011,
+      "source": 69
+    },
+    {
+      "id": 114,
+      "destination": 82,
+      "product": 100012,
+      "source": 40
+    },
+    {
+      "id": 115,
+      "destination": 94,
+      "product": 100013,
+      "source": 81
+    },
+    {
+      "id": 116,
+      "destination": 96,
+      "product": 100014,
+      "source": 93
+    },
+    {
+      "id": 117,
+      "destination": 69,
+      "product": 100015,
+      "source": 58
+    },
+    {
+      "id": 118,
+      "destination": 90,
+      "product": 100016,
+      "source": 28
+    },
+    {
+      "id": 119,
+      "destination": 76,
+      "product": 100017,
+      "source": 74
+    },
+    {
+      "id": 120,
+      "destination": 74,
+      "product": 100018,
+      "source": 22
+    },
+    {
+      "id": 121,
+      "destination": 87,
+      "product": 100019,
+      "source": 73
+    },
+    {
+      "id": 122,
+      "destination": 96,
+      "product": 100020,
+      "source": 78
+    },
+    {
+      "id": 123,
+      "destination": 45,
+      "product": 100021,
+      "source": 9
+    },
+    {
+      "id": 124,
+      "destination": 90,
+      "product": 100022,
+      "source": 89
+    },
+    {
+      "id": 125,
+      "destination": 96,
+      "product": 100023,
+      "source": 93
+    },
+    {
+      "id": 126,
+      "destination": 87,
+      "product": 100024,
+      "source": 20
+    },
+    {
+      "id": 127,
+      "destination": 87,
+      "product": 100025,
+      "source": 75
+    },
+    {
+      "id": 128,
+      "destination": 71,
+      "product": 100026,
+      "source": 33
+    },
+    {
+      "id": 129,
+      "destination": 99,
+      "product": 100027,
+      "source": 92
+    },
+    {
+      "id": 130,
+      "destination": 37,
+      "product": 100028,
+      "source": 33
+    },
+    {
+      "id": 131,
+      "destination": 69,
+      "product": 100029,
+      "source": 60
+    },
+    {
+      "id": 132,
+      "destination": 20,
+      "product": 100030,
+      "source": 17
+    },
+    {
+      "id": 133,
+      "destination": 72,
+      "product": 100031,
+      "source": 52
+    },
+    {
+      "id": 134,
+      "destination": 85,
+      "product": 100032,
+      "source": 77
+    },
+    {
+      "id": 135,
+      "destination": 96,
+      "product": 100033,
+      "source": 45
+    },
+    {
+      "id": 136,
+      "destination": 97,
+      "product": 100034,
+      "source": 89
+    },
+    {
+      "id": 137,
+      "destination": 30,
+      "product": 100035,
+      "source": 7
+    },
+    {
+      "id": 138,
+      "destination": 99,
+      "product": 100036,
+      "source": 98
+    },
+    {
+      "id": 139,
+      "destination": 77,
+      "product": 100037,
+      "source": 45
+    },
+    {
+      "id": 140,
+      "destination": 31,
+      "product": 100038,
+      "source": 20
+    },
+    {
+      "id": 141,
+      "destination": 98,
+      "product": 100039,
+      "source": 81
+    },
+    {
+      "id": 142,
+      "destination": 49,
+      "product": 100040,
+      "source": 30
+    },
+    {
+      "id": 143,
+      "destination": 50,
+      "product": 100041,
+      "source": 9
+    },
+    {
+      "id": 144,
+      "destination": 45,
+      "product": 100042,
+      "source": 16
+    },
+    {
+      "id": 145,
+      "destination": 36,
+      "product": 100043,
+      "source": 19
+    },
+    {
+      "id": 146,
+      "destination": 99,
+      "product": 100044,
+      "source": 97
+    },
+    {
+      "id": 147,
+      "destination": 99,
+      "product": 100045,
+      "source": 95
+    },
+    {
+      "id": 148,
+      "destination": 39,
+      "product": 100046,
+      "source": 34
+    },
+    {
+      "id": 149,
+      "destination": 65,
+      "product": 100047,
+      "source": 26
+    },
+    {
+      "id": 150,
+      "destination": 93,
+      "product": 100048,
+      "source": 60
+    }
+  ],
+  "synthetic": {
+    "seed": 2026,
+    "truth": [
+      [
+        0,
+        1,
+        2,
+        0
+      ],
+      [
+        3,
+        4,
+        5,
+        3
+      ]
+    ]
+  },
+  "performance": [
+    {
+      "id": "d16db4dd-8b16-4b4a-a0df-e5b34d4865e7",
+      "createdAt": "2026-11-23T15:33:38.326Z",
+      "algorithmVersion": "directed-cycle-path-v2",
+      "config": {},
+      "results": [
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 2,
+          "dfsMilliseconds": 0,
+          "edges": 150,
+          "f1": 1,
+          "falseNegatives": 0,
+          "falsePositives": 0,
+          "injectedCycles": 2,
+          "precision": 1,
+          "recall": 1,
+          "truePositives": 2,
+          "vertices": 100
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 5,
+          "dfsMilliseconds": 2.001,
+          "edges": 750,
+          "f1": 1,
+          "falseNegatives": 0,
+          "falsePositives": 0,
+          "injectedCycles": 5,
+          "precision": 1,
+          "recall": 1,
+          "truePositives": 5,
+          "vertices": 500
+        },
+        {
+          "bfsMilliseconds": 1.003,
+          "detectedCycles": 10,
+          "dfsMilliseconds": 2.999,
+          "edges": 1500,
+          "f1": 1,
+          "falseNegatives": 0,
+          "falsePositives": 0,
+          "injectedCycles": 10,
+          "precision": 1,
+          "recall": 1,
+          "truePositives": 10,
+          "vertices": 1000
+        },
+        {
+          "bfsMilliseconds": 5.999,
+          "detectedCycles": 20,
+          "dfsMilliseconds": 14.998,
+          "edges": 7500,
+          "f1": 1,
+          "falseNegatives": 0,
+          "falsePositives": 0,
+          "injectedCycles": 20,
+          "precision": 1,
+          "recall": 1,
+          "truePositives": 20,
+          "vertices": 5000
+        }
+      ]
+    },
+    {
+      "id": "7835618e-79e5-4052-b7fe-ef04c29409a3",
+      "createdAt": "2026-11-23T15:14:21.530Z",
+      "config": {},
+      "results": [
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 2,
+          "dfsMilliseconds": 0,
+          "edges": 150,
+          "f1": 0,
+          "falseNegatives": 2,
+          "falsePositives": 2,
+          "injectedCycles": 2,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 100
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 5,
+          "dfsMilliseconds": 1.998,
+          "edges": 750,
+          "f1": 0,
+          "falseNegatives": 5,
+          "falsePositives": 5,
+          "injectedCycles": 5,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 500
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 10,
+          "dfsMilliseconds": 2,
+          "edges": 1500,
+          "f1": 0,
+          "falseNegatives": 10,
+          "falsePositives": 10,
+          "injectedCycles": 10,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 1000
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 20,
+          "dfsMilliseconds": 12.997,
+          "edges": 7500,
+          "f1": 0,
+          "falseNegatives": 20,
+          "falsePositives": 20,
+          "injectedCycles": 20,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 5000
+        }
+      ]
+    },
+    {
+      "id": "709ae0ef-c885-4829-84ee-f33f02109ecd",
+      "createdAt": "2026-11-23T14:37:26.592Z",
+      "config": {},
+      "results": [
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 2,
+          "dfsMilliseconds": 0,
+          "edges": 150,
+          "f1": 0,
+          "falseNegatives": 2,
+          "falsePositives": 2,
+          "injectedCycles": 2,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 100
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 5,
+          "dfsMilliseconds": 2,
+          "edges": 750,
+          "f1": 0,
+          "falseNegatives": 5,
+          "falsePositives": 5,
+          "injectedCycles": 5,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 500
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 10,
+          "dfsMilliseconds": 3.001,
+          "edges": 1500,
+          "f1": 0,
+          "falseNegatives": 10,
+          "falsePositives": 10,
+          "injectedCycles": 10,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 1000
+        },
+        {
+          "bfsMilliseconds": 0,
+          "detectedCycles": 20,
+          "dfsMilliseconds": 14.116,
+          "edges": 7500,
+          "f1": 0,
+          "falseNegatives": 20,
+          "falsePositives": 20,
+          "injectedCycles": 20,
+          "precision": 0,
+          "recall": 0,
+          "truePositives": 0,
+          "vertices": 5000
+        }
+      ]
+    }
+  ]
+}
