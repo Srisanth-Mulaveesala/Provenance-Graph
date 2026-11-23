@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Provenance Graph: Tracing Origin and Detecting Fraudulent Loops
 
 This is a menu-driven C++ application that represents supply-chain actors as
@@ -185,3 +186,6 @@ truth. A detected cycle is circular movement, not definitive proof of fraud.
 - Multiple cycles: add several closing edges and run DFS.
 - Synthetic: generate 100/150/2, 500/750/5, 1000/1500/10, or
   5000/7500/20 vertices/edges/cycles.
+=======
+# Provenance-Graph
+>>>>>>> 2a2473d578148766d090f71cb763092bfaa805e1
